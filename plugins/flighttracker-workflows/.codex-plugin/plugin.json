@@ -1,0 +1,27 @@
+{
+  "name": "flighttracker-workflows",
+  "version": "0.1.0",
+  "description": "Safe workflows for reviewing travel email threads and preparing reply drafts.",
+  "author": {
+    "name": "Cristian Orellana",
+    "url": "https://github.com/crorella"
+  },
+  "homepage": "https://github.com/crorella/flighttracker-codex-setup#readme",
+  "repository": "https://github.com/crorella/flighttracker-codex-setup",
+  "license": "MIT",
+  "keywords": ["travel", "gmail", "email", "drafts"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FlightTracker Workflows",
+    "shortDescription": "Prepare safe drafts in live travel email threads.",
+    "longDescription": "Adds a careful workflow for finding live travel conversations, verifying itinerary details, and creating or updating Gmail reply drafts without sending them.",
+    "developerName": "Cristian Orellana",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Review this travel email thread and draft a reply.",
+      "Find my reservation email and summarize next steps.",
+      "Update the existing draft without sending it."
+    ]
+  }
+}

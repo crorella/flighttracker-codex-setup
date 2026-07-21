@@ -1,0 +1,20 @@
+{
+  "name": "flighttracker",
+  "interface": {
+    "displayName": "FlightTracker Codex Setup"
+  },
+  "plugins": [
+    {
+      "name": "flighttracker-workflows",
+      "source": {
+        "source": "local",
+        "path": "./plugins/flighttracker-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

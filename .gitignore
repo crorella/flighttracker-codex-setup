@@ -1,0 +1,25 @@
+# Credentials and local Codex state
+.env
+.env.*
+auth.json
+*.token
+.codex/
+.codex-log/
+
+# Browser and connector artifacts
+.playwright-mcp/
+*.har
+
+# Private travel artifacts
+*.eml
+*.mbox
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Common local files
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
