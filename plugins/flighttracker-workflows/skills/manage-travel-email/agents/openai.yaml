@@ -1,4 +1,0 @@
-interface:
-  display_name: "Travel Email Workflow"
-  short_description: "Draft safe replies in existing travel threads"
-  default_prompt: "Use $manage-travel-email to review a travel email thread and prepare a reply draft."

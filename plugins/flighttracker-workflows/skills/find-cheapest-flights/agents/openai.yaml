@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Cheapest Flights"
+  short_description: "Compare creative flight combinations for lowest cost"
+  default_prompt: "Use $find-cheapest-flights to find the cheapest practical flight combinations for my trip."
