@@ -2,9 +2,9 @@
 
 ## Scope
 
-- Keep this repository limited to reusable Codex configuration for travel-email workflows.
+- Keep this repository limited to reusable Codex configuration for finding low-cost flight combinations.
 - Write documentation and user-facing examples in clear, neutral language.
-- Never commit real email content, booking references, traveler data, authentication material, or generated trip artifacts.
+- Never commit booking references, traveler data, authentication material, or generated trip artifacts.
 
 ## Validation
 
